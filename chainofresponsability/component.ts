@@ -48,7 +48,16 @@ class dialogButton extends Button {
         super(helpText, container);
     }
 }
-class application {
+class HelpApplication {
+    copy(arg0: any) {
+        throw new Error("Method not implemented.");
+    }
+    getClipboard(): any {
+        throw new Error("Method not implemented.");
+    }
+    showHistory() {
+        throw new Error("Method not implemented.");
+    }
     createUI() {
         const mainContainer = new dialog("Main dialog help text" );
         const button1 = new Button("Button 1 help text", mainContainer);
@@ -69,5 +78,5 @@ class application {
     }
 }
 // Example usage
-const chainApp = new application();
+const chainApp = new HelpApplication();
 chainApp.showHelp();  

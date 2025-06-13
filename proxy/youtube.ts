@@ -72,6 +72,9 @@ class youtubeManager {
      
 }
 class app {
+    static createUI() {
+        throw new Error("Method not implemented.");
+    }
     init() {
         const youtubeService = new thirdPartyYoutubeClass();
         const cachedYoutube = new cachedYoutubeClass(youtubeService);
