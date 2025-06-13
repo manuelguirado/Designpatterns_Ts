@@ -1,0 +1,23 @@
+{
+  "name": "designpatterns_ts",
+  "version": "1.0.0",
+  "description": "I'm learning design patterns with TypeScript to improve my knowledge in backend development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelguirado/Designpatterns_Ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelguirado/Designpatterns_Ts/issues"
+  },
+  "homepage": "https://github.com/manuelguirado/Designpatterns_Ts#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.1"
+  }
+}
