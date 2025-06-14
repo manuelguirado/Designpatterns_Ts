@@ -34,6 +34,12 @@ abstract class container extends Component {
     }
 }
 class Button extends Component {
+    onClick(arg0: () => void) {
+        throw new Error("Method not implemented.");
+    }
+    click() {
+        throw new Error("Method not implemented.");
+    }
     constructor(helpText: string, container: container) {
         super(helpText, container);
     }
